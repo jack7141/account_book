@@ -222,6 +222,7 @@ Temporary Items
 [Ss]cripts
 pyvenv.cfg
 .venv
+.idea
 pip-selfcheck.json
 media/
 server/server/site.log
@@ -235,3 +236,5 @@ celerybeat-schedule.db
 public/download
 */db.sqlite3
 mysql
+logs/
+.secrets.json

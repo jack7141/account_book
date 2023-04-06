@@ -1,5 +1,5 @@
-# User Manager API Server
-유저 관리 서버
+# Account Book API Server
+가계부 관리 서버
 
 ## Tech
 * [Django] - Python 웹 애플리케이션 프레임워크
@@ -78,8 +78,8 @@ API에 대한 문서는 swagger를 통해 자동생성되도록 되어있습니�
 각 API는 `버전`이 존재하며 버전의 룰은 `"v{version}"`으로 적용됩니다.
 > 예) v1, v2, v3 ...
 
-Swagger API 문서 주소는 `/api/v{version}/docs`입니다.
-> 예) /api/v1/docs
+Swagger API 문서 주소는 `/api/v{version}/swagger`입니다.
+> 예) /api/v1/swagger
 
 
 ## Settings

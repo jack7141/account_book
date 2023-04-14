@@ -8,7 +8,7 @@ from drf_yasg import openapi
 from rest_framework import permissions
 
 
-folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'versioned')
+folder = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'bases/sumup/versioned')
 
 urlpatterns = []
 version_map_dict = {}

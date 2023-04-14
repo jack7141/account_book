@@ -3,7 +3,7 @@ from rest_auth.models import TokenModel
 from rest_auth.registration.serializers import SocialLoginSerializer as rest_SocialLoginSerializer
 from requests.exceptions import HTTPError
 
-from api.versioned.v1.users.serializers import UserSerializer, InviteCreateSerializer
+from api.bases.sumup.versioned.v1.users.serializers import UserSerializer, InviteCreateSerializer
 
 try:
     from allauth.account import app_settings as allauth_settings

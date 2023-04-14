@@ -18,7 +18,8 @@ class AssetTabularInline(TabularInlinePaginated):
     ordering = ['-created_at']
     can_delete = False
     extra = 0
-    readonly_fields = ['amount', 'description', 'trade_type', 'transaction', 'managed']
+    # readonly_fields = ['amount', 'description', 'trade_type', 'transaction', 'managed']
+    readonly_fields = ['amount', 'description', 'managed']
     per_page = 10
 
 class UserAdmin(UserAdmin):

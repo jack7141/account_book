@@ -7,7 +7,7 @@ from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 from rest_framework import viewsets
 from rest_framework.generics import get_object_or_404
 
-from api.versioned.v1.users.serializers import UserSerializer, UserCreateSerializer, UserLoginSerializer, \
+from api.bases.sumup.versioned.v1.users.serializers import UserSerializer, UserCreateSerializer, UserLoginSerializer, \
     UserUpdateSerializer, ProfileSerializer, RefreshTokenSerializer
 from common.permissions import IsOwnerOrAdminUser, IsOwner
 from django.contrib.auth import get_user_model, logout
